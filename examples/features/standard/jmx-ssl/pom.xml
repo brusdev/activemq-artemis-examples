@@ -61,7 +61,7 @@ under the License.
                   </goals>
                   <configuration>
                      <ignore>${noServer}</ignore>
-                     <javaOptions>-Djava.rmi.server.hostname=localhost</javaOptions>
+                     <javaOptions>-Djava.rmi.server.hostname=localhost -Dartemis.default.sensitive.string.codec.key=securepass</javaOptions>
                   </configuration>
                </execution>
                <execution>
